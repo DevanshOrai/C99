@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+<center>
+    <h1 class="btn btn-default heading">COLLAGE WEB APP</h1>
+    <hr>
+    <h4 id="notice">AS SOON AS POPUP APPEARS, CLICK ALLOW TO MAKE WEBCAM OPEN</h4>
+    <h3>SAY "SELFIE" TO CAPTURE IMAGE</h3>
+    <br>
+    <button id="start" onclick="save()" class="btn btn-info">START</button>
+    <br>
+    <h4 id="kya">PRESS THE START BUTTON</h4>
+    <label>YOUR WEBCAM:</label>
+    <div id="webcam"></div>
+    <br>
+    <label>YOUR SELFIE WILL BE DISPLAY HERE</label>
+
+    <div id="allresults">
+
+        <div id="result1">
+            <img src="1.jpg" width="30%">
+        </div>
+        <br>
+        <div id="result2">
+            <img src="2.jpg" width="30%">
+        </div>
+        <br>
+        <div id="result3">
+            <img src="3.jpg" width="30%">
+        </div>
+    </div>
+</center>
+</body>
+
+</html>
